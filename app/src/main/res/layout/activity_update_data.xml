@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Barang.updateData"
+    android:padding="20dp"
+    android:gravity="center">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Update Data Obat"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/new_kode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Kode Obat Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/new_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Nama Obat Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/new_satuan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Satuan Obat Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/new_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Tanggal Kadaluwarsa Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/new_harga"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Harga Obat Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/new_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="Jumlah Baru"
+        android:textColorHint="#000"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/update"
+        android:background="@drawable/border2"
+        android:layout_width="150dp"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+</LinearLayout>
